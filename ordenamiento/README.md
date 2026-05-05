@@ -1,18 +1,4 @@
-#  Repositorio de Tareas - Curso de Algoritmos / Programación
-
-Este repositorio contiene las distintas tareas, prácticas y proyectos desarrollados durante el curso, enfocados en el análisis, implementación y comparación de algoritmos, estructuras de datos y métodos computacionales.
-
-Cada carpeta corresponde a una tarea diferente y contiene:
-
-* Código fuente
-* Explicación del problema
-* Implementación de la solución
-* Ejemplos de ejecución
-* Observaciones importantes
-
----
-
-# Tarea 1: Comparación de Algoritmos de Ordenamiento
+# Tarea 3: Comparación de Algoritmos de Ordenamiento
 
 ## Descripción
 
