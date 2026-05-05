@@ -1,0 +1,30 @@
+﻿#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i, j;
+    cin>>i >> j;
+    cout << i;
+    int maximo = 0;
+    for (int k = i; k <= j; k++){
+        int cantidad=0;
+        int n = k;
+        while (n >= 1){
+            cantidad++;
+            if (n%2 != 0){
+                n = 3*n - 1;
+            }
+            else{
+                n = n/2;
+            }
+        }
+        if (cantidad >= maximo){
+            maximo = cantidad;
+        }
+    }
+    cout << maximo;
+
+    return 0;
+}
