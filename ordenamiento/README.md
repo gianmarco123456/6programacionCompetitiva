@@ -102,21 +102,19 @@ Ejecutar con:
  COMPARADOR DE ALGORITMOS DE ORDENAMIENTO
 ========================================
 
-Ingrese cantidad de numeros aleatorios: 1000
-Ingrese valor minimo del rango: 1
-Ingrese valor maximo del rango: 5000
+Ingrese cantidad, minimo, maximo: 1000 1 5000
 
 ===============================================
  RESULTADOS ORDENADOS POR EFICIENCIA TEMPORAL
 ===============================================
 
-Algoritmo           Iteraciones        Tiempo (ms)
+Algoritmo           Iteraciones         Tiempo (ns)    
 -------------------------------------------------------
-Quick Sort          10543              0.2101
-Merge Sort          9987               0.3154
-Insertion Sort      248120             1.8421
-Selection Sort      499500             3.1052
-Bubble Sort         499500             4.2218
+Quick Sort          10014               327544.0       
+Merge Sort          8721                857306.0       
+Insertion Sort      257489              3382595.0      
+Selection Sort      499500              4918517.0      
+Bubble Sort         499500              12892975.0  
 
 El algoritmo mas eficiente fue: Quick Sort
 ```
@@ -130,21 +128,19 @@ El algoritmo mas eficiente fue: Quick Sort
  COMPARADOR DE ALGORITMOS DE ORDENAMIENTO
 ========================================
 
-Ingrese cantidad de numeros aleatorios: 5000
-Ingrese valor minimo del rango: 10
-Ingrese valor maximo del rango: 10000
+Ingrese cantidad, minimo, maximo: 5000 10 10000
 
 ===============================================
  RESULTADOS ORDENADOS POR EFICIENCIA TEMPORAL
 ===============================================
 
-Algoritmo           Iteraciones        Tiempo (ms)
+Algoritmo           Iteraciones         Tiempo (ns)    
 -------------------------------------------------------
-Quick Sort          61234              1.0254
-Merge Sort          58742              1.4022
-Insertion Sort      6235410            45.2184
-Selection Sort      12497500           78.5311
-Bubble Sort         12497500           95.7742
+Quick Sort          76659               2121936.0      
+Merge Sort          55199               4888822.0      
+Insertion Sort      6158792             80085411.0     
+Selection Sort      12497500            118889037.0    
+Bubble Sort         12497500            337228555.0  
 
 El algoritmo mas eficiente fue: Quick Sort
 ```
@@ -158,20 +154,3 @@ El algoritmo mas eficiente fue: Quick Sort
 * Merge Sort y Quick Sort presentan mejor rendimiento gracias a su complejidad aproximada O(n log n).
 
 Por ello, para aplicaciones reales, normalmente se prefieren algoritmos como Quick Sort o Merge Sort.
-
----
-
-# Futuras tareas
-
-Este repositorio seguirá creciendo con nuevas prácticas como:
-
-* Búsquedas binarias y lineales
-* Árboles KD-Tree
-* Métodos numéricos
-* Recursividad
-* Divide and Conquer
-* Programación dinámica
-* Simulación de algoritmos
-* Optimización y análisis de complejidad
-
----
